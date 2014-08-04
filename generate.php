@@ -1,4 +1,4 @@
 <?
-$name = "Tutaj ma być zmienna sitename z js";
+$name = $_POST['sitename'];
 $file = fopen($name + ".html", "w+");
 ?>
