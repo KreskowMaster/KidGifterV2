@@ -1,0 +1,191 @@
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+#top_menu {
+    width: 100%;
+    background: #E0003F;
+    margin: auto;
+    height: 90px;
+    
+} 
+#social_bar_top {
+    width: 33.75%;
+    margin: 1.625%;
+    float: right;
+}
+#sub, #end {
+    border: 2px white solid;
+    border-radius: 10px;
+    background: #E0003F;
+    color: white;
+    font-size: 1.2em;
+    width: 37.5%;
+    margin: 0.625%;
+}
+#list_help {
+    margin-bottom: -32%;
+    margin-top: 2%;
+    font-size: 1em;
+    background: #39A8DB;
+    color: white;
+}
+#smile_help {
+    margin: 10%;
+}
+#formtitle, #formdescription, #formimage {
+    color: white;
+    border: solid 2px darkgray;
+    background: darkgray;
+    width: 46.25%;
+    height: 20px;
+}
+#formdescription {
+    height: 65px;
+}
+.gift {
+    font-family: Caviar Dreams;
+    font-size: 1.5em;
+    color: white;
+    background: #E0003F;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 300px;
+}
+gifttext {
+    width: 20%;
+}
+.GiftImage {
+    float: right;
+    width: 320px;
+    height: 320px;
+    max-width: 100%;
+}
+#help {
+    color: #E0003F;
+    text-decoration: none;
+}
+/*
+#shortdesc {
+    font-family: Caviar Dreams;
+    font-size: 2em;
+    position: absolute;
+    margin-left: 560px;
+    width: 550px;
+    margin-top: -85px;
+    color: white;
+}
+
+#social_bar_top {
+    background: #97BE0D;
+    width: 85px;
+    height: 211px;
+    margin: 0px;
+    float: right;
+}
+#list_help {
+    width: 880px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Caviar Dreams;
+    font-size: 1.4375em;
+    background: #39A8DB;
+    color: white;
+}
+
+#smile_help {
+    margin: 15px;
+    margin-top: 75px;
+    float: left;
+}
+#info-form {
+    margin-top: -20px;
+    padding-right: 30px;
+    width: 550px;
+    float: right;
+}
+#formtitle {
+    color: white;
+    border: solid 2px darkgray;
+    background: darkgray;
+    width: 400px;
+    height: 25px;
+}
+#formdescription {
+    color: white;
+    height: 76px;
+    width: 400px;
+    background: darkgray;
+    border: solid 2px darkgray;
+}
+.gift {
+    font-family: Caviar Dreams;
+    font-size: 1.5em;
+    color: white;
+    background: #E0003F;
+    margin: 0 auto;
+    margin-top:20px;
+    width: 880px;
+    height: 350px;
+    text-align: justify; 
+    margin-bottom: 70px;
+}
+
+.gifttext {
+    padding: 30px;
+    width: 450px;
+    float: right;
+}
+.GiftTitle {
+    margin-top: 5px;
+    font-size: 2.5em;
+    width: 470px;
+    height: 125px;
+}
+.giftimage {
+    height: 320px;
+    width: 320px;
+    margin: 15px;
+}
+
+#bot_menu {
+    background: #39A8DB; 
+    position: fixed;
+    width: 600px;
+    height: 67px;
+    margin-top: -12px;
+    margin-left: -8px;
+}
+#sharebar {
+    text-align: center;
+    float: right;
+    margin-top: 0px;
+    width: 600px;
+    height: 67px;
+}
+#shareinfo {
+    font-family: Caviar Dreams;
+    color: white;
+    font-size: 1.25em;
+    float: left;
+    margin-left: 10px;
+}
+#shareimg {
+    float: right;
+    background: #b0a30e;
+    height: 68px;
+    width: 250px;
+
+}
+
+}
+.twitter-share-button {
+    margin-bottom: 15px;
+    margin-left: -15px;
+} */
