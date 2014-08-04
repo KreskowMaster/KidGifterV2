@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+<head>
+<title>KidGifter</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style-grid.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/scripts.js"></script>
+<script src="php/generate.php"></script>
+</head>
+<body>
+    <div class="container, clearfix" id="cont">
+        <div id="top_menu">
+            <div class="grid_2"><img id="logo" src="img/logo-400x.png" alt="Logo KidGifter" ></div>
+            <div id="social_bar_top" class="grid_2, omega">
+            <a href="https://www.facebook.com/kidgifter"><img id="kgfb" src="img/Facebook_Icon_85x65_px.jpg" alt="KidGifter Facebook" ></a>
+            <a href="https://plus.google.com/u/0/b/107301480776796211739/107301480776796211739/posts"><img id="kggp" src="img/GooglePlus_Icon_85x65_px.jpg" alt="KidGifter Google Plus" ></a>
+            <a href="https://twitter.com/KidGifter"><img id="kgt" src="img/Twitter_Icon_85x65_px.jpg" alt="KidGifter Twitter" ></a>
+            </div>
+        </div>
+    
+        <div id="list_help" class="grid_4">
+                <div class="grid_2">
+                     <div id="welcome" class="grid_2, alpha">
+                    <p>Hejka!</p>
+                         
+                    <p>Tutaj możesz stworzyć swoją liste prezentów i udostępnić ją na Facebooku lub Twitterze. Niech twoi znajomi i bliscy wiedzą co chcesz dostać!</p>
+                    </div>
+                    <img id="smile_help" src="img/smile.png">
+                    
+                </div>
+                    <div class="grid_2, omega">
+                    <form action="#">
+                    <p>Najpierw wprowadź nazwę prezentu:</p>
+                    <textarea id="formtitle" maxlength="150"></textarea>
+                    <p>Teraz możesz krótko go opisać:</p>
+                    <textarea id="formdescription" maxlength="230"></textarea>
+                    <p>Teraz dodaj zdjęcie prezentu, poprzez wklejenie jego adresu URL <a href="#" id="help"><b>(zobacz jak to zrobić)</b></a>.</p>
+                    <textarea id="formimage"></textarea>
+                    </div>
+                    <div class="grid_2, omega">
+                        <input type="submit" value="Dodaj prezent" id="sub">
+                    </div>
+                    <div class="grid_2, omega">    
+                        <input id="end" type="button" value="Zakończ">
+                    </div>
+                    </form>
+        </div>
+    </div>
+    </body>
+</html>
