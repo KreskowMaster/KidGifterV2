@@ -64,7 +64,7 @@ window.onload = function () {
         var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c" + ".html"; 
         var link = "www.kidgifter.pl/" + sitename;
         alert(link);
-        $.post('generator.php', {sitename: sitename});
+        $.post('php/generate.php', {sitename: sitename});
         
 }
 }
