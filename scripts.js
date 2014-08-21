@@ -61,10 +61,10 @@ window.onload = function () {
             var ranNum= Math.round(Math.random()*MaxValue);
             return ranNum;
           }
-        var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c" + ".html"; 
+        var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c"; 
         var link = "www.kidgifter.pl/" + sitename;
         alert(link);
-        $.post('php/generate.php', {sitename: sitename});
+        $.post('generate.php', {sitename: sitename});
         
 }
 }
