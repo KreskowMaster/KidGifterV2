@@ -14,9 +14,7 @@ window.onload = function () {
         event.preventDefault();
         if (!isEmpty(formtitle.value)) {
         var giftinfo = "<div class='gifttext'>";
-        if (formimage != null) {
         giftinfo += "<img class='GiftImage omega' src='" + formimage.value + "'>";
-        }
         giftinfo += "<p class='GiftTitle'>" + formtitle.value + "</p>";
         giftinfo += "<p class='GiftDescription'>" + formdescription.value + "</p>";
         giftinfo += "</div>";
@@ -63,7 +61,9 @@ window.onload = function () {
           }
         var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c"; 
         var link = "www.kidgifter.pl/" + sitename;
+        var allGifts = document.querySelector(".gift");
         alert(link);
+        $.post('generate.php', {allGifts: allGifts});
         $.post('generate.php', {sitename: sitename});
         
 }
