@@ -61,10 +61,12 @@ window.onload = function () {
           }
         var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c"; 
         var link = "www.kidgifter.pl/" + sitename;
+        var ended = true;
         var allGifts = document.querySelector(".gift");
         alert(link);
-        $.post('generate.php', {allGifts: allGifts});
+        $.post('generate.php', {allGifts: 'abc'});
         $.post('generate.php', {sitename: sitename});
+        $.post('generate.php', {ended: ended});
         
 }
 }
