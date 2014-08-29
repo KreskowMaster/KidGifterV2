@@ -7,6 +7,7 @@ window.onload = function () {
     var end = document.getElementById("end");
     var list = new Array();
     var clear = document.getElementById("delete");
+    var giftsArray = new Array();
     function isEmpty(value) {
     return /^\s*$/.test(value);
 }
@@ -23,6 +24,8 @@ window.onload = function () {
         div.innerHTML = giftinfo;
         document.body.appendChild(div);
         list = giftinfo.push;
+        giftsArray.push(giftinfo);
+        alert(giftsArray);
         formdescription.value = null;
         formtitle.value = null;
         formimage.value = null;
@@ -62,11 +65,13 @@ window.onload = function () {
         var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c"; 
         var link = "www.kidgifter.pl/" + sitename;
         var ended = true;
-        var allGifts = document.querySelector(".gift");
         alert(link);
-        $.post('generate.php', {allGifts: 'abc'});
-        $.post('generate.php', {sitename: sitename});
-        $.post('generate.php', {ended: ended});
+        $.post('generate.php', {
+            allGifts: 'abc',
+            sitename: sitename,
+            ended: ended,
+            giftsArray: giftsArray,
+        });
         
 }
 }
