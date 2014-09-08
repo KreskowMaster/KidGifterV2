@@ -6,13 +6,16 @@ body {
 img {
     max-width: 100%;
 }
-
+ul, li {
+    margin: 0%;
+    display: inline;
+    list-style: none;    
+}
 #top_menu {
     width: 100%;
     background: #E0003F;
     margin: auto;
     height: 90px;
-    
 } 
 #social_bar_top {
     width: 33.75%;
@@ -26,7 +29,9 @@ img {
     color: white;
     font-size: 1.2em;
     width: 37.5%;
-    margin: 0.625%;
+    margin: auto;
+    margin-top: 0.625%;
+    margin-bottom: 0.625%;
 }
 #list_help {
     margin-bottom: -32%;
@@ -70,122 +75,12 @@ gifttext {
     color: #E0003F;
     text-decoration: none;
 }
-/*
-#shortdesc {
-    font-family: Caviar Dreams;
-    font-size: 2em;
-    position: absolute;
-    margin-left: 560px;
-    width: 550px;
-    margin-top: -85px;
-    color: white;
-}
-
-#social_bar_top {
-    background: #97BE0D;
-    width: 85px;
-    height: 211px;
-    margin: 0px;
-    float: right;
-}
-#list_help {
-    width: 880px;
-    height: 430px;
+textarea, input {
+    display: block;
     margin: 0 auto;
-    margin-top: 30px;
-    font-family: Caviar Dreams;
-    font-size: 1.4375em;
-    background: #39A8DB;
-    color: white;
 }
-
-#smile_help {
-    margin: 15px;
-    margin-top: 75px;
-    float: left;
-}
-#info-form {
-    margin-top: -20px;
-    padding-right: 30px;
-    width: 550px;
-    float: right;
-}
-#formtitle {
-    color: white;
-    border: solid 2px darkgray;
-    background: darkgray;
-    width: 400px;
-    height: 25px;
-}
-#formdescription {
-    color: white;
-    height: 76px;
-    width: 400px;
-    background: darkgray;
-    border: solid 2px darkgray;
-}
-.gift {
-    font-family: Caviar Dreams;
-    font-size: 1.5em;
-    color: white;
-    background: #E0003F;
+#forms {
     margin: 0 auto;
-    margin-top:20px;
-    width: 880px;
-    height: 350px;
-    text-align: justify; 
-    margin-bottom: 70px;
-}
-
-.gifttext {
-    padding: 30px;
-    width: 450px;
-    float: right;
-}
-.GiftTitle {
-    margin-top: 5px;
-    font-size: 2.5em;
-    width: 470px;
-    height: 125px;
-}
-.giftimage {
-    height: 320px;
-    width: 320px;
-    margin: 15px;
-}
-
-#bot_menu {
-    background: #39A8DB; 
-    position: fixed;
-    width: 600px;
-    height: 67px;
-    margin-top: -12px;
-    margin-left: -8px;
-}
-#sharebar {
     text-align: center;
-    float: right;
-    margin-top: 0px;
-    width: 600px;
-    height: 67px;
+    margin: 0 auto;
 }
-#shareinfo {
-    font-family: Caviar Dreams;
-    color: white;
-    font-size: 1.25em;
-    float: left;
-    margin-left: 10px;
-}
-#shareimg {
-    float: right;
-    background: #b0a30e;
-    height: 68px;
-    width: 250px;
-
-}
-
-}
-.twitter-share-button {
-    margin-bottom: 15px;
-    margin-left: -15px;
-} */
