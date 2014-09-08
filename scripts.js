@@ -65,9 +65,13 @@ window.onload = function () {
         var sitename = Current[0] + "a" + Current[1] + "b" + Current[2] + "c"; 
         var link = "www.kidgifter.pl/" + sitename;
         var ended = true;
+        var allGifts = "";
+        for($i = 0; i<=giftsArray.length; i++) {
+            allGifts += giftsArray[i];    
+        }
         alert(link);
         $.post('generate.php', {
-            allGifts: 'abc',
+            allGifts: allGifts,
             sitename: sitename,
             ended: ended,
             giftsArray: giftsArray,
