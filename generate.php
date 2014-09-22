@@ -6,13 +6,14 @@ $ended = $_POST['ended'];
 $giftsArray = $_POST['giftsArray'];
 $file1 = fopen($giftsname, "w+");
 $file2 = fopen("$sitename.php", "w+");
-fputs($file1, "<link rel='stylesheet' href='css/normalize.css' />
-<link rel='stylesheet' href='css/style-grid.css' />
-<link rel='stylesheet' href='css/style.css' />");
 fputs($file2, "<?php readfile('szablon.html')?>");
 fputs($file2, "<?php readfile('$giftsname')?>");
 foreach ($giftsArray as $gift) {
-    fputs($file1, $gift);
+   if (get_magic_quotes_gpc()) {
+	fputs($file1, stripslashes($gift));
+} else {
+	fputs($file1, $gift);
+}
 }
 
 ?>
