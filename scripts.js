@@ -69,10 +69,8 @@ window.onload = function () {
         var ended = true;
         var go = document.createElement("a");
         go.innerHTML = "Dalej";
-        go.className = "go";
+        go.className = "go grid_4";
         go.href = sitename + ".php";
-        endlink.className = "endlink";
-        endlink.href = sitename + ".php";
         document.body.appendChild(go);
         var allGifts = "";
         for($i = 0; i<=giftsArray.length; i++) {
