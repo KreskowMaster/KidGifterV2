@@ -15,7 +15,7 @@ window.onload = function () {
     submit.onclick = function(event) {
         event.preventDefault();
         if (!isEmpty(formtitle.value)) {
-        var giftinfo = "<div class='gifttext'>";
+        var giftinfo = "<div class='gift grid_4 gifttext'>";
         giftinfo += "<img class='GiftImage omega' src='" + formimage.value + "'>";
         giftinfo += "<p>" + formtitle.value + "</p>";
         giftinfo += "<p>" + formdescription.value + "</p>";
